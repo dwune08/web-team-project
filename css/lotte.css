@@ -1,0 +1,123 @@
+.coex-main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.coex-main img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+h2 {
+    text-align: center;
+    color: #1b365d;
+}
+
+section, article {
+    grid-column: 1 / 2;
+    padding: 25px;
+    margin: 25px;
+    background-color: #f0f4f8;
+    border: 2px solid #bcccdc;
+    border-radius: 25px;
+}
+
+
+aside {
+    grid-column: 2 / 3;
+    grid-row: span 100;
+    padding: 25px;
+    margin: 25px;
+
+    background-color: #f0f4f8; 
+    color: #2d3748; 
+    border: 1px solid #d9e2ec;
+    border-radius: 16px;
+    text-align: center;
+
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+aside h2 {
+    color: #1e3a8a;
+}
+table {
+    width : 100%;
+    margin : 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+table:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+}
+th, td {
+    white-space: nowrap;
+    padding : 15px;
+    border: 1px solid #e5e7eb; /* 검은 선 대신 아주 연한 회색 선 사용 */
+}
+thead {
+    background-color: #244263; 
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #244263;
+    padding: 15px;
+}
+tbody {
+    color: #486581; /* 글자색도 살짝 푸른빛이 도는 세련된 먹색으로 */
+    font-size: 13px;
+    border: 1px solid #d9e2ec; /* 부드러운 청회색 선 */
+    padding: 15px;
+}
+.reserve-button, .homepage-button {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    padding: 15px 22px;
+
+    font-weight: bold;
+    text-decoration: none;
+
+    background-color: #334e68; 
+    color: #ffffff;
+    border-radius: 30px;
+}
+.reserve-button {
+    background-color: #1982c4; /* 👈 예약하기는 배너 속에 반짝이는 청량한 바다색 포인트! */
+    color: #ffffff;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.item {
+    padding: 30px;
+    background-color: white;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgab(0,0,0,0.02);
+}
+.item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+}
+.item h3 {
+    white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #244263;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item p {
+    margin: 0;
+    color: #4a5568;
+    line-height: 1.6;
+    font-size: 15px;
+}
