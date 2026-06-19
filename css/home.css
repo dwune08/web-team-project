@@ -3,16 +3,15 @@
 }
 
 body{
-    font-family: 'Noto Sans KR', sans-serif;
     margin: 0;
 
     background: #f8fff7 url("../image/photo-1575980202155-18b6c1e49169.avif") no-repeat fixed center center / cover
 }
 
 .home {
-    height: 100vh;
     padding: 80px;
     font-size: 30px;
+
     color: white;
     text-align: center;
 }
@@ -20,23 +19,53 @@ body{
     text-shadow: 3px 0 5px gray;
 }
 
+main{
+    width: 1100px;
+    margin: 35px auto;
 
-.card-list{
+    flex: 1;
+}
+
+.home-list{
+    width: 1000px;
+    margin: 40px auto;
+
     display: flex;
     gap: 20px;
 }
 .card{
     flex: 1;
-    padding: 25px;
-    text-align: center;
+    min-height: 320px;
+    padding: 30px;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+
+    color: white;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+    transition: 0.3s;
+}
+.card h2{
+    color: white;
     
-    background: rgba(255,255,255,0.1);
-    backdrop-filter: blur(12px);
-
-    border: 1px solid rgba(255,255,255,0.4);
-    border-radius: 15px;
-
-    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+.button {
+    margin-top: auto;
+    padding: 10px 18px;
+    border-radius: 25px;
+    background: #1765da;
+    color: white;
+    text-decoration: none;
 }
