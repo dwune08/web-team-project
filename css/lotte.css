@@ -1,8 +1,9 @@
 .coex-main {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 60% 40%;
 }
 .coex-main img {
+    width: 100%;
     border-radius: 25px;
 }
 
