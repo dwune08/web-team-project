@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: #f8fff7 url("../images/water.jpg") no-repeat fixed center center / cover;
+    background: #f8fff7 url("../image/water.jpg") no-repeat fixed center center / cover;
     padding-top: 30px;
     color: white;
     text-align: center;
@@ -73,7 +73,7 @@ p {
 
 footer {
     padding: 20px;
-    background: #f8fff7 url("../images/water.jpg") no-repeat fixed center center / cover;
+    background: #f8fff7 url("../image/water.jpg") no-repeat fixed center center / cover;
     color: white;
     text-align: center;
 }
